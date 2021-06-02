@@ -6,7 +6,7 @@ post_url = "http://localhost:4000"
 get_headers = {"Content-Type": "application/json"}
 post_headers = {"Content-Type": "application/json"}
 
-get_surl = "https://bdcanta.000webhostapp.com/phenix/ai.php"
+get_surl = "http://bdcanta.000webhostapp.com/phenix/ai.php"
 previousx =0
 previousy = 0
 mina
