@@ -22,7 +22,7 @@ while True:
                       float(jsonData["tankA"]["y"]),
                       float(jsonData["tankA"]["r"]),
                       float(jsonData["tankA"]["can_fire"])]
-    data = requests.get(get_surl, headers=get_headers)
+    data = requests.get(get_surl, headers=get_headersiki)
     jsonData = json.loads(data.text)
 
     
