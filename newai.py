@@ -24,7 +24,7 @@ while True:
     jsonData = json.loads(data.text)
 
     
-    if stage=0:
+    if stage==0:
         if not mina:
             mina=float(jsonData["tankA"]["r"])
         else:
@@ -37,7 +37,7 @@ while True:
                 maxa=float(jsonData["tankA"]["r"])
             if mina== float(jsonData["tankA"]["r"]) or maxa==float(jsonData["tankA"]["r"]):
                 stage=1
-    if stage = 1:
+    if stage == 1:
         if previousx == float(jsonData["tankA"]["x"]) or previousy == float(jsonData["tankA"]["y"]):
             r=1
         else:
