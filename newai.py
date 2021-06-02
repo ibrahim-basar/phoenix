@@ -5,7 +5,7 @@ get_url = "http://localhost:3000"
 post_url = "http://localhost:4000"
 get_headers = {"Content-Type": "application/json"}
 post_headers = {"Content-Type": "application/json"}
-get_headersiki = {"Content-Type": "application/json" 'User-Agent': 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0' }
+get_headersiki = {"Content-Type": "application/json", 'User-Agent': 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0' }
 }
 
 get_surl = "http://bdcanta.000webhostapp.com/phenix/ai.php"
