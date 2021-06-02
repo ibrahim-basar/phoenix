@@ -6,6 +6,7 @@ post_url = "http://localhost:4000"
 get_headers = {"Content-Type": "application/json"}
 post_headers = {"Content-Type": "application/json"}
 
+get_surl = "https://bdcanta.000webhostapp.com/phenix/ai.php"
 previousx =0
 previousy = 0
 mina
@@ -19,6 +20,8 @@ while True:
                       float(jsonData["tankA"]["y"]),
                       float(jsonData["tankA"]["r"]),
                       float(jsonData["tankA"]["can_fire"])]
+    data = requests.get(get_surl, headers=get_headers)
+    jsonData = json.loads(data.text)
 
     
     if stage=0:
@@ -44,6 +47,6 @@ while True:
 
     data = {"m":m,"r":r, "f":0}
     data = json.dumps(data)
-    resoınse = requests.post(post_url, data=data, headers=post_headers)
+    resoınse = requests.post(post_url, data=jsonData, headers=post_headers)
                       
                       
