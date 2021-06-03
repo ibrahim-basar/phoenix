@@ -24,11 +24,7 @@ while True:
 
     
 
-        #data = {"m":m,"r":r, "f":f}
-    m = 1
-
-    data = {"m":m,"r":r, "f":0}
-    data = json.dumps(data)
+        
     resoınse = requests.post(post_url, data=jsonData, headers=post_headers)
                       
                       
