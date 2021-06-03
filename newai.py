@@ -11,8 +11,7 @@ get_headersiki = {"Content-Type": "application/json", 'User-Agent': 'Mozilla/5.0
 get_surl = "http://bdcanta.000webhostapp.com/phenix/ai.php"
 previousx =0
 previousy = 0
-mina
-maxa
+
 stage=0
 r=0
 while True:
